@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300;400&display=swap');
+
+.content{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: 'Commissioner', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+  overflow: hidden;
+  scrollbar-width: none;
+}
+.information{
+    display:flex;
+    justify-content: center;
+    margin-left:300;
+    width:938px;
+    background-color:white;
+    overflow: hidden;
+    scrollbar-width: none;
+
+}
+
+.custom-scrollbar {
+  overflow: hidden;
+  scrollbar-width: none;
+}

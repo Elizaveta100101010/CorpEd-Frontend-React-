@@ -1,0 +1,51 @@
+.registration{
+    border-radius:15px;
+    width:384px;
+    height:auto;
+    background-color:white;
+    padding: 48px 32px;
+    margin-bottom:30px;
+        &__header{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 21px;
+        }
+        &__button{
+            font-size: 18px;
+        margin-top:15px;
+        border-radius:4px;
+        width:100%;
+        margin-bottom:-10px;
+        background-color:#1f57aa ;
+        height:40px;
+        color:white;
+            }
+        &__link{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color:rgba(140, 140, 140, 1);  
+        }
+        &__label{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #262626;   
+        }
+        &__input{
+        height:40px;
+        margin-bottom:15px;
+            &--error{
+            margin-bottom:0;
+            border: 1px solid rgba(245, 34, 45, 1)  
+           }
+        } 
+        }
+
+
+        

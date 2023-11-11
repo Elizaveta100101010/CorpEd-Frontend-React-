@@ -1,0 +1,97 @@
+.article{
+    border-radius:15px;
+    width:938px;
+    height:auto;
+    background-color:white;
+    padding: 48px 32px;
+    margin:30px;
+    &__header{
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: #262626;
+      text-align: center;
+      margin-bottom: 21px;
+    }
+    &__button{
+    background-color: #1f57aa;
+    width:319px;
+    height: 40px;
+    font-size: 18px;
+    }
+    &__input{
+    height:40px;
+    }
+    &__text{
+    text-align: start;
+    height:168px;
+    margin-bottom:0;
+    }
+    &__tags{
+    margin-top:-40px;
+    }
+  }
+  
+  .tag{
+  
+    &__item{
+      width: 300px;
+      height:40px;
+      border: 1px solid #D9D9D9;
+      border-radius: 4px;
+      background-color: rgba(24, 144, 255, 0.2);
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600; 
+    }
+  
+    &__container{
+      display:flex;
+      flex-direction: row;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+    &__input{
+    width:300px;
+    height:40px;
+      &--error{
+        border-color: red;
+      }
+    }
+    &__deleteButton{
+      background-color: white;
+      color:#F5222D;
+      width:118px;
+      height:40px;
+      border: 1px solid #F5222D;
+      border-radius: 4px;
+      font-family: 'Roboto';
+      font-size: 16px;
+      line-height: 24px;
+      margin-right:18px;
+      margin-left: 18px;
+      transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color:rgba(245, 34, 45, 0.2); 
+          transition: all 0.3s ease-in-out;
+        }
+      }
+      &__addButton{
+      background-color: white;
+      color:#1890FF;
+      width:136px;
+      height:40px;
+      border: 1px solid #1890FF;
+      border-radius: 4px;
+      font-family: 'Roboto';
+      font-size: 16px;
+      line-height: 24px;
+      transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color:rgba(24, 144, 255, 0.2); 
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
